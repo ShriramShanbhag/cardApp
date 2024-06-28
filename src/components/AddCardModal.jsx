@@ -28,13 +28,13 @@ export const AddCardModal = ({ onAdd }) => {
   return (
     <>
       <Button colorScheme="blue" onClick={onOpen}>
-        + Add Card
+        + Add Item
       </Button>
 
       <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
         <ModalContent>
-          <ModalHeader>Add a new card</ModalHeader>
+          <ModalHeader>Add a new item</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
             <Input
