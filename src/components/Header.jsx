@@ -1,6 +1,6 @@
 import React from "react";
 import { Flex, Heading } from "@chakra-ui/react";
-import { AddCardModal } from "./AddCardModal";
+import { AddItemModal } from "./AddItemModal";
 
 export const Header = ({ onAdd }) => {
   return (
@@ -14,7 +14,7 @@ export const Header = ({ onAdd }) => {
       <Heading fontFamily={"cursive"} fontSize={"32px"}>
         Card App
       </Heading>
-      <AddCardModal onAdd={onAdd} />
+      <AddItemModal onAdd={onAdd} />
     </Flex>
   );
 };
