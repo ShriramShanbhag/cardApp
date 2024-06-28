@@ -28,8 +28,8 @@ function App() {
       setLoading(true);
       const newCard = { title, description };
       const res = await addCard(title, description);
-      loadCards();
       setLoading(false);
+      loadCards();
       toast({
         title: "Card Added.",
         description: "Card added successfully.",
