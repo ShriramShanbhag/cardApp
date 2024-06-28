@@ -1,6 +1,6 @@
 # Card App
 
-This is a React application bootstrapped with [Vite](https://vitejs.dev/). It uses a Json server backend deployed at [https://json-server-vercel-iota-blue.vercel.app](https://json-server-vercel-iota-blue.vercel.app)
+This is a React application bootstrapped with [Vite](https://vitejs.dev/). It uses a JSON Server backend deployed at [https://json-server-vercel-iota-blue.vercel.app](https://json-server-vercel-iota-blue.vercel.app)
 
 ## Live version 
 The app is deployed at [https://super-concha-adc362.netlify.app/](https://super-concha-adc362.netlify.app/)
