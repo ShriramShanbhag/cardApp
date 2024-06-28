@@ -3,7 +3,7 @@
 This is a React application bootstrapped with [Vite](https://vitejs.dev/).
 
 ## Live version 
-[https://super-concha-adc362.netlify.app/](https://super-concha-adc362.netlify.app/)
+The app is deployed at [https://super-concha-adc362.netlify.app/](https://super-concha-adc362.netlify.app/)
 
 
 ## Installation
