@@ -31,18 +31,18 @@ function App() {
       setLoading(false);
       loadCards();
       toast({
-        title: "Card Added.",
-        description: "Card added successfully.",
+        title: "Item Added.",
+        description: "Item added successfully.",
         status: "success",
         duration: 2000,
         isClosable: true,
       });
     } catch (error) {
       setLoading(false);
-      console.error("Error adding card:", error);
+      console.error("Error adding item:", error);
       toast({
         title: "Failed.",
-        description: "Failed to add card.",
+        description: "Failed to add item.",
         status: "error",
         duration: 2000,
         isClosable: true,
@@ -58,7 +58,7 @@ function App() {
       setLoading(false);
       toast({
         title: "Deleted.",
-        description: "Card deleted successfully.",
+        description: "Item deleted successfully.",
         status: "success",
         duration: 2000,
         isClosable: true,
@@ -68,7 +68,7 @@ function App() {
       console.log(error);
       toast({
         title: "Failed.",
-        description: "Failed to delete card.",
+        description: "Failed to delete item.",
         status: "error",
         duration: 2000,
         isClosable: true,
